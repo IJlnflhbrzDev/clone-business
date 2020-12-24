@@ -28,6 +28,31 @@ header .jumbotron h2 {
   font-weight: bold;
 }
 
+header .title_jumbotron button:hover i {
+  color: burlywood;
+}
+
+#clients {
+  margin-top: -32px;
+  background-color: lightgrey;
+}
+
+#clients img {
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  -webkit-transition: all 0.43s ease;
+  transition: all 0.43s ease;
+  width: 21% !important;
+  padding: 5px;
+}
+
+#clients img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: all 0.33s ease;
+  transition: all 0.33s ease;
+}
+
 @media screen and (max-width: 767px) {
   .header_direction {
     display: -webkit-box;

@@ -119,6 +119,35 @@ header .title_jumbotron button:hover i {
   margin-right: 10px;
 }
 
+#why_us {
+  background-color: #f3f5fa;
+}
+
+#why_us img {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  height: 500px;
+}
+
+#why_us .content h3 {
+  color: #37517e;
+  font-weight: 400;
+}
+
+#why_us .content span {
+  color: #37517e;
+  font-weight: bold;
+}
+
+#why_us .content p {
+  color: #848484;
+  font-size: 15px;
+}
+
+#why_us strong {
+  margin-right: 10px;
+}
+
 .scrolling_active {
   -webkit-transition: all 0.55s ease;
   transition: all 0.55s ease;
@@ -130,6 +159,11 @@ header .title_jumbotron button:hover i {
     margin-bottom: 3px;
     width: 100%;
     font-size: 18px;
+  }
+  #why_us img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    height: auto;
   }
 }
 

@@ -108,6 +108,32 @@ header {
   }
 }
 
+#why_us {
+  background-color: #f3f5fa;
+  img {
+    transform: scale(2);
+    height: 500px;
+  }
+  .content {
+    h3 {
+      color: #37517e;
+      font-weight: 400;
+    }
+    span {
+      color: #37517e;
+      font-weight: bold;
+    }
+    p {
+      color: #848484;
+      font-size: 15px;
+    }
+  }
+
+  strong {
+    margin-right: 10px;
+  }
+}
+
 // animation scrolling navbar
 .scrolling_active {
   transition: all 0.55s ease;
@@ -115,12 +141,19 @@ header {
 }
 
 // responsive brekpoints
+
 @media screen and (max-width: 992px) {
   section.jumbotron {
     button {
       margin-bottom: 3px;
       width: 100%;
       font-size: 18px;
+    }
+  }
+  #why_us {
+    img {
+      transform: scale(1);
+      height: auto;
     }
   }
 }

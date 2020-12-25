@@ -169,4 +169,11 @@ header {
     margin-top: 50px;
     text-align: center;
   }
+  #about {
+    .show_github {
+      width: 100% !important;
+      background-color: #64b3f4;
+      color: blue;
+    }
+  }
 }

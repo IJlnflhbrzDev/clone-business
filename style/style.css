@@ -1,5 +1,14 @@
+body {
+  height: 1200vh;
+}
+
 header {
   background-color: #37517e;
+}
+
+header nav {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
 }
 
 header nav a {
@@ -47,6 +56,12 @@ header .title_jumbotron button:hover i {
           filter: grayscale(0);
   -webkit-transition: all 0.33s ease;
   transition: all 0.33s ease;
+}
+
+.scrolling_active {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  background-color: #4535f0 !important;
 }
 
 @media screen and (max-width: 992px) {

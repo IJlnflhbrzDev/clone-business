@@ -1,6 +1,10 @@
+body {
+  height: 1200vh;
+}
 header {
   background-color: #37517e;
   nav {
+    transition: all 0.55s ease;
     a {
       color: white !important;
     }
@@ -41,6 +45,12 @@ header {
       transition: all 0.33s ease;
     }
   }
+}
+
+// animation scrolling navbar
+.scrolling_active {
+  transition: all 0.55s ease;
+  background-color: #4535f0 !important; //jika navbar nya mempunyi default warna maka beri importan agar code ini di jalankan
 }
 
 // responsive brekpoints

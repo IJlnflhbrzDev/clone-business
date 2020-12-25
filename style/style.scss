@@ -42,6 +42,17 @@ header {
     }
   }
 }
+
+// responsive brekpoints
+@media screen and (max-width: 992px) {
+  section.jumbotron {
+    button {
+      margin-bottom: 3px;
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+}
 @media screen and (max-width: 767px) {
   .header_direction {
     display: flex;

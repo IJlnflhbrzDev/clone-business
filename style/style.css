@@ -4,6 +4,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.description_content {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -146,6 +152,37 @@ header .title_jumbotron button:hover i {
 
 #why_us strong span {
   margin-left: 7px;
+}
+
+#service .card {
+  margin-top: 40px;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+#service .card:hover {
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-transition: all 0.44s ease;
+  transition: all 0.44s ease;
+}
+
+#service .card .card-body i {
+  color: #47b2e4;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+#service .card .card-body h4 {
+  color: #37517e;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+#service .card .card-body p {
+  font-size: 15px;
+  color: grey;
 }
 
 .scrolling_active {

@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,800&display=swap");
+html,
 body {
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .description_content {
   width: 70%;
@@ -65,6 +68,10 @@ header {
     }
     img {
       width: 20%;
+    }
+    button {
+      outline: none;
+      border: none;
     }
   }
 

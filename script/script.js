@@ -12,3 +12,9 @@ window.onscroll = function () {  // window onscroll ini artinya jika window di s
           navbar.classList.remove('scrolling_active')  //jika tidak terpenuhi maka class scrolling_active akan di remove
      }
 }
+
+// animation icont navbar
+const bxIconsSpin = document.querySelector('.bxs-radiation');
+bxIconsSpin.addEventListener('click', function () {
+     bxIconsSpin.classList.toggle('bx-spin')
+})

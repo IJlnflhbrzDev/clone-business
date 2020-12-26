@@ -171,6 +171,26 @@ header {
   }
 }
 
+// Call To Action
+#CTA {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUQ_xBKZbt5b3Im_r8x-KKnjXfZp1cuMsVpA&usqp=CAU")
+      fixed center center;
+  color: white;
+  p {
+    font-size: 15px;
+  }
+  .btn {
+    border: 2px solid #4535f0;
+    color: white;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  background-size: cover;
+  background-position: center;
+}
+
 // animation scrolling navbar
 .scrolling_active {
   transition: all 0.55s ease;

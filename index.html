@@ -169,8 +169,15 @@
                 <div class="card mb-3 bg-info text-white">
                   <div class="card-header" id="headingOne">
                     <h4 class="mb-0">
-                      <button class="btn  text-white btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <strong>01</strong> Non consectetur a erat nam at lectus urna duis?
+                      <button class="btn  text-white btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="handleButtonShow1()">
+                      <div class="acourdion_title d-flex justify-content-between align-items-center">
+                        <strong>01
+                        <span>
+                          Non consectetur a erat nam at lectus urna duis?
+                        </span>
+                      </strong>
+                      <i class='bx bx-chevrons-up' ></i>
+                      </div>
                       </button>
                     </h4>
                   </div>
@@ -184,8 +191,15 @@
                 <div class="card mb-3 bg-info text-white">
                   <div class="card-header" id="headingTwo">
                     <h4 class="mb-0">
-                      <button class="btn  text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <strong>02</strong> Feugiat scelerisque varius morbi enim nunc?
+                      <button class="btn  text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="handleButtonShow2()">
+                      <div class="acourdion_title d-flex justify-content-between align-items-center">
+                        <strong>02
+                        <span>
+                          Feugiat scelerisque varius morbi enim nunc?
+                        </span>
+                      </strong>
+                      <i class='bx bx-chevrons-up' ></i>
+                      </div>
                       </button>
                     </h4>
                   </div>
@@ -198,8 +212,15 @@
                 <div class="card mb-3 bg-info text-white">
                   <div class="card-header" id="headingThree">
                     <h4 class="mb-0">
-                      <button class="btn  text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <strong>03</strong> Dolor sit amet consectetur adipiscing elit?
+                      <button class="btn  text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="handleButtonShow3()">
+                      <div class="acourdion_title d-flex justify-content-between align-items-center">
+                        <strong>03
+                        <span>
+                          Dolor sit amet consectetur adipiscing elit?
+                        </span>
+                      </strong>
+                      <i class='bx bx-chevrons-up' ></i>
+                      </div>
                       </button>
                     </h4>
                   </div>
@@ -218,6 +239,72 @@
            </div>
          </div>
        </section>
+       <!-- why_us 2 -->
+       <section id="why_us">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 order-2 order-lg-1 order-md-1">
+              <img src="./img/about_img02.svg" alt="" class="w-100">
+           </div>
+            <div class="col-lg-7 order-1 order-lg-2 order-2">
+              <div class="content ">
+                <h3> <span class="font-weight-bold">Voluptatem dignissimos provident quasi corporis voluptates</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+              </div>
+             <!-- progress -->
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">HTML</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+              </div>
+            </div>
+
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">CSS</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+              </div>
+            </div>
+
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">Javascript</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
+              </div>
+            </div>
+
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">ReactJs</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
+              </div>
+            </div>
+
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">SCSS</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+              </div>
+            </div>
+
+             <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">GIT</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+              </div>
+            </div>
+
+            <div class="progress_info mt-2 text-white" >
+              <h5 class="font-weight-bold">Bootstrap</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+              </div>
+            </div>
+             <!-- end  -->
+            </div>
+          </div>
+        </div>
+      </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="script/script.js"></script>

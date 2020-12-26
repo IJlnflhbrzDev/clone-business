@@ -133,11 +133,21 @@ header {
     margin-right: 10px;
   }
 }
-
 // animation scrolling navbar
 .scrolling_active {
   transition: all 0.55s ease;
   background-color: #4535f0 !important; //jika navbar nya mempunyi default warna maka beri importan agar code ini di jalankan
+}
+
+// progresss bar
+.progress-bar {
+  background-color: #37517e;
+}
+.progress_info {
+  h5 {
+    color: #87a0cc;
+    font-size: 16px;
+  }
 }
 
 // responsive brekpoints

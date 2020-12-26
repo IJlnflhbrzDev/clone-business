@@ -198,6 +198,26 @@ header {
   background-position: center;
 }
 
+// TEAM ===========================================
+#team {
+  background-color: #f3f5fa;
+  .card {
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .team_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .team_description {
+      i {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
 // animation scrolling navbar
 .scrolling_active {
   transition: all 0.55s ease;

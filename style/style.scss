@@ -203,17 +203,41 @@ header {
   background-color: #f3f5fa;
   .card {
     margin-top: 20px;
-    padding: 5px;
+    padding: 10px;
+    transition: all 0.55s ease;
+    &:hover {
+      margin-top: 10px;
+      transition: all 0.44s ease;
+      cursor: pointer;
+    }
   }
   .team_content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
-
     .team_description {
+      h4 {
+        font-size: 20px;
+        color: #37517e;
+        font-weight: 700;
+        font-family: serif;
+      }
+      span {
+        font-size: 13px;
+        font-weight: 600;
+      }
+      small {
+        margin: 10px 0 0 0;
+      }
       i {
         font-size: 18px;
       }
+    }
+  }
+  .team_img {
+    img {
+      width: 150px;
+      border-radius: 50%;
     }
   }
 }

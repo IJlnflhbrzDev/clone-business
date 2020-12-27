@@ -220,23 +220,53 @@ header .title_jumbotron button:hover i {
 
 #team .card {
   margin-top: 20px;
-  padding: 5px;
+  padding: 10px;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+#team .card:hover {
+  margin-top: 10px;
+  -webkit-transition: all 0.44s ease;
+  transition: all 0.44s ease;
+  cursor: pointer;
 }
 
 #team .team_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+#team .team_content .team_description h4 {
+  font-size: 20px;
+  color: #37517e;
+  font-weight: 700;
+  font-family: serif;
+}
+
+#team .team_content .team_description span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#team .team_content .team_description small {
+  margin: 10px 0 0 0;
+}
+
 #team .team_content .team_description i {
   font-size: 18px;
+}
+
+#team .team_img img {
+  width: 150px;
+  border-radius: 50%;
 }
 
 .scrolling_active {

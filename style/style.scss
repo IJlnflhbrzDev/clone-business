@@ -150,6 +150,9 @@ header {
       margin-left: 7px;
     }
   }
+  .bxs-down-arrow-alt .active_rotate {
+    transform: rotate(180deg);
+  }
 }
 
 // service

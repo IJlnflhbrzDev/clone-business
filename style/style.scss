@@ -6,11 +6,13 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+// default description style
 .description_content {
   width: 70%;
   margin: 20px auto;
   text-align: center;
 }
+// default section style
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -55,6 +57,7 @@ section {
     }
   }
 }
+// header
 header {
   height: 700px;
   background-color: #37517e;
@@ -94,6 +97,7 @@ header {
     }
   }
 }
+// aclients
 #clients {
   margin-top: -32px;
   background-color: lightgrey;
@@ -108,6 +112,7 @@ header {
     }
   }
 }
+// about
 #about {
   ul {
     padding: 0;
@@ -119,7 +124,7 @@ header {
     margin-right: 10px;
   }
 }
-
+// why us
 #why_us {
   background-color: #f3f5fa;
   img {
@@ -241,6 +246,8 @@ header {
     }
   }
 }
+
+// ======================================= Animation Animation style ============================
 
 // animation scrolling navbar
 .scrolling_active {

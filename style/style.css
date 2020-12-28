@@ -362,6 +362,16 @@ header .title_jumbotron button:hover i {
   left: 5px;
 }
 
+#contact .location {
+  border-radius: 10px;
+  border-top: 10px solid #4535f0;
+}
+
+#contact .form-border {
+  border-radius: 10px;
+  border-top: 10px solid #4535f0;
+}
+
 footer {
   background-color: #37517e;
   color: white;

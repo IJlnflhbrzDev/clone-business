@@ -349,9 +349,34 @@ footer {
 
 // responsive brekpoints
 
-@media (min-width: 768px) and (max-widht: 1024px) {
-  #pricising {
+@media (min-width: 375px) and (max-width: 667px) {
+  #team {
     .card {
+      margin-top: 20px;
+      padding: 5px;
+    }
+    .team_content {
+      .team_description {
+        h4 {
+          font-size: 15px;
+        }
+        span {
+          font-size: 10px;
+          font-weight: 600;
+        }
+        small {
+          margin: 5px 0 0 0;
+        }
+        i {
+          font-size: 15px;
+        }
+      }
+    }
+    .team_img {
+      img {
+        width: 100%;
+        border-radius: 0;
+      }
     }
   }
 }

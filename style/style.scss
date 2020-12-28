@@ -319,6 +319,17 @@ header {
   }
 }
 
+// ASked QUESTION STYLE
+#question {
+  background-color: #f3f5fa;
+  .bx-help-circle {
+    position: absolute;
+    font-size: 24px;
+    left: 5px;
+  }
+}
+
+// footer
 footer {
   background-color: #37517e;
   color: white;
@@ -328,6 +339,7 @@ footer {
     align-items: center;
   }
 }
+
 // ======================================= Animation Animation style ============================
 
 // animation scrolling navbar

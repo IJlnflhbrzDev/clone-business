@@ -352,6 +352,16 @@ header .title_jumbotron button:hover i {
   color: #9b9b9b !important;
 }
 
+#question {
+  background-color: #f3f5fa;
+}
+
+#question .bx-help-circle {
+  position: absolute;
+  font-size: 24px;
+  left: 5px;
+}
+
 footer {
   background-color: #37517e;
   color: white;

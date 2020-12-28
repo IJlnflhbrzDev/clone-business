@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -68,9 +75,6 @@ header nav {
 
 header nav a {
   color: white !important;
-}
-
-header nav a:hover {
   font-weight: 600;
 }
 
@@ -272,6 +276,97 @@ header .title_jumbotron button:hover i {
 #team .team_img img {
   width: 150px;
   border-radius: 50%;
+}
+
+#pricising .card {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#pricising .title_box {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  padding: 60px 40px;
+}
+
+#pricising .title_box:hover {
+  background-color: #37517e;
+  padding: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+#pricising .title_box:hover span,
+#pricising .title_box:hover h3,
+#pricising .title_box:hover h4,
+#pricising .title_box:hover li {
+  color: white !important;
+}
+
+#pricising .title_box h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#pricising .title_box sup {
+  font-size: 20px;
+}
+
+#pricising .title_box code {
+  font-size: 35px;
+}
+
+#pricising .title_box span {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #37517e;
+  margin-top: 10px;
+}
+
+#pricising .list_description {
+  padding: 20px 0;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+#pricising .list_description li {
+  margin: 20px 0;
+  list-style: none;
+  color: grey;
+  font-size: 15px;
+}
+
+#pricising .list_description li i {
+  color: #47b2e4;
+  font-size: 24px;
+}
+
+#pricising .list_description .disable_order_plan {
+  text-decoration: line-through;
+}
+
+#pricising .list_description .disable_order_plan i {
+  color: #9b9b9b !important;
+}
+
+footer {
+  background-color: #37517e;
+  color: white;
+}
+
+footer .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .scrolling_active {

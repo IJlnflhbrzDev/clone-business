@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -65,9 +70,7 @@ header {
     transition: all 0.55s ease;
     a {
       color: white !important;
-      &:hover {
-        font-weight: 600;
-      }
+      font-weight: 600;
     }
     img {
       width: 20%;
@@ -249,7 +252,82 @@ header {
     }
   }
 }
+// ==============Pricising==========
+#pricising {
+  .card {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
 
+  .title_box {
+    transition: all 0.55s ease;
+    &:hover {
+      background-color: #37517e;
+      padding: 30px;
+      cursor: pointer;
+      transition: all 0.55s ease;
+      span,
+      h3,
+      h4,
+      li {
+        color: white !important;
+      }
+    }
+    padding: 60px 40px;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    sup {
+      font-size: 20px;
+    }
+    code {
+      font-size: 35px;
+    }
+    span {
+      display: block;
+      font-size: 15px;
+      font-weight: bold;
+      color: #37517e;
+      margin-top: 10px;
+    }
+  }
+
+  .list_description {
+    padding: 20px 0;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+
+    li {
+      i {
+        color: #47b2e4;
+        font-size: 24px;
+      }
+      margin: 20px 0;
+      list-style: none;
+      color: grey;
+      font-size: 15px;
+    }
+    .disable_order_plan {
+      text-decoration: line-through;
+      i {
+        color: rgb(155, 155, 155) !important;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #37517e;
+  color: white;
+  .card-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 // ======================================= Animation Animation style ============================
 
 // animation scrolling navbar
@@ -271,6 +349,12 @@ header {
 
 // responsive brekpoints
 
+@media (min-width: 768px) and (max-widht: 1024px) {
+  #pricising {
+    .card {
+    }
+  }
+}
 @media screen and (max-width: 992px) {
   section.jumbotron {
     button {

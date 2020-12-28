@@ -19,7 +19,7 @@ bxIconsSpin.addEventListener('click', function () {
      bxIconsSpin.classList.toggle('bx-spin')
 });
 
-// animation icont rotate ketika di click pada button show accordion
+// animation icont  ketika di click pada button show accordion
 $(document).ready(function () {
      $('.collapse.show').each(function () {
        $(this).prev('.card-header').find('.far').addClass(' fa-minus-square').removeClass(' fa-plus-square');
@@ -30,4 +30,4 @@ $(document).ready(function () {
        $(this).prev('.card-header').find('.far').removeClass('fa-minus-square').addClass('fa-plus-square');
      });
    });
-// active_rotate
+// end animation icont accordion

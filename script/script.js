@@ -31,3 +31,14 @@ $(document).ready(function () {
      });
    });
 // end animation icont accordion
+
+
+//  handleButtonSubmitForm  Contact
+const handleButtonSubmitForm = document.querySelector('form'); // mengambil dom button clicked html
+handleButtonSubmitForm.addEventListener('submit',function (e) {
+     e.preventDefault()
+     var exampleInputUsername = document.getElementById('exampleInputUsername') //next buat validasi nama
+     var exampleInputEmail = document.getElementById('exampleInputEmail');  //sama seperti di aatas
+     swal(`Terimakasih Telah Memberi Komentar!  `, `Sampai Jumpa Kembali`, `success`); //validation succes alert
+     this.reset('') // mereset semua isi form
+})

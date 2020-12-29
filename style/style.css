@@ -63,6 +63,12 @@ section h2::after {
   left: calc(50% - 20px);
 }
 
+h4 {
+  font-weight: bold !important;
+  color: #37517e;
+  font-size: 25px;
+}
+
 header {
   height: 700px;
   background-color: #37517e;
@@ -372,31 +378,8 @@ header .title_jumbotron button:hover i {
   border-top: 10px solid #4535f0;
 }
 
-footer {
-  background-color: #37517e;
-  color: white;
-}
-
-footer .card-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 #newsletter {
   background-color: #f3f5fa;
-}
-
-#newsletter h4 {
-  font-weight: bold !important;
-  color: #37517e;
-  font-size: 25px;
 }
 
 #newsletter .newsletter_input {
@@ -421,6 +404,7 @@ footer .card-header {
   padding: 1px 15px !important;
   -webkit-transition: all 0.55s ease-out;
   transition: all 0.55s ease-out;
+  background-color: #419cc6;
 }
 
 #newsletter .newsletter_input input {
@@ -441,6 +425,25 @@ footer .card-header {
   border-radius: 20px;
   background-color: #47b2e4;
   color: white;
+}
+
+footer .col-xl-3,
+footer .col-md-6 {
+  padding: 20px;
+}
+
+footer .card-header {
+  background-color: #37517e;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .scrolling_active {

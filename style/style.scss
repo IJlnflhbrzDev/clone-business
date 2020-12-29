@@ -62,6 +62,13 @@ section {
     }
   }
 }
+
+h4 {
+  font-weight: bold !important;
+  color: #37517e;
+  font-size: 25px;
+}
+
 // header
 header {
   height: 700px;
@@ -343,24 +350,9 @@ header {
   }
 }
 
-// footer
-footer {
-  background-color: #37517e;
-  color: white;
-  .card-header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-}
-
+// newsletter
 #newsletter {
   background-color: #f3f5fa;
-  h4 {
-    font-weight: bold !important;
-    color: #37517e;
-    font-size: 25px;
-  }
   .newsletter_input {
     display: flex;
     justify-content: center;
@@ -374,6 +366,7 @@ footer {
         margin-left: -50px !important;
         padding: 1px 15px !important;
         transition: all 0.55s ease-out;
+        background-color: #419cc6;
       }
     }
     input {
@@ -393,6 +386,23 @@ footer {
       background-color: #47b2e4;
       color: white;
     }
+  }
+}
+
+//
+
+// footer
+footer {
+  .col-xl-3,
+  .col-md-6 {
+    padding: 20px;
+  }
+  .card-header {
+    background-color: #37517e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
 

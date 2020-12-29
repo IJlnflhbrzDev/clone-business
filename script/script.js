@@ -40,5 +40,5 @@ handleButtonSubmitForm.addEventListener('submit',function (e) {
      var exampleInputUsername = document.getElementById('exampleInputUsername') //next buat validasi nama
      var exampleInputEmail = document.getElementById('exampleInputEmail');  //sama seperti di aatas
      swal(`Terimakasih Telah Memberi Komentar!  `, `Sampai Jumpa Kembali`, `success`); //validation succes alert
-     this.reset('') // mereset semua isi form
+     this.reset('') // mereset semua isi form ketika user telah melakukan submit form
 })

@@ -389,6 +389,60 @@ footer .card-header {
           align-items: center;
 }
 
+#newsletter {
+  background-color: #f3f5fa;
+}
+
+#newsletter h4 {
+  font-weight: bold !important;
+  color: #37517e;
+  font-size: 25px;
+}
+
+#newsletter .newsletter_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsletter .newsletter_input:hover input {
+  background-color: red;
+  color: white;
+}
+
+#newsletter .newsletter_input:hover button {
+  margin-left: -50px !important;
+  padding: 1px 15px !important;
+  -webkit-transition: all 0.55s ease-out;
+  transition: all 0.55s ease-out;
+}
+
+#newsletter .newsletter_input input {
+  padding: 0px 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #47b2e4;
+}
+
+#newsletter .newsletter_input button {
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.44s ease;
+  transition: all 0.44s ease;
+  margin-left: -100px;
+  margin-top: 1px;
+  padding: 1px 15px;
+  border-radius: 20px;
+  background-color: #47b2e4;
+  color: white;
+}
+
 .scrolling_active {
   -webkit-transition: all 0.55s ease;
   transition: all 0.55s ease;

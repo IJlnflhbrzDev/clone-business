@@ -354,6 +354,48 @@ footer {
   }
 }
 
+#newsletter {
+  background-color: #f3f5fa;
+  h4 {
+    font-weight: bold !important;
+    color: #37517e;
+    font-size: 25px;
+  }
+  .newsletter_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      input {
+        background-color: red;
+        color: white;
+      }
+      button {
+        margin-left: -50px !important;
+        padding: 1px 15px !important;
+        transition: all 0.55s ease-out;
+      }
+    }
+    input {
+      padding: 0px 20px;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #47b2e4;
+    }
+    button {
+      border: none;
+      outline: none;
+      transition: all 0.44s ease;
+      margin-left: -100px;
+      margin-top: 1px;
+      padding: 1px 15px;
+      border-radius: 20px;
+      background-color: #47b2e4;
+      color: white;
+    }
+  }
+}
+
 // ======================================= Animation Animation style ============================
 
 // animation scrolling navbar

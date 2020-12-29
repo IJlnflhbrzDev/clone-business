@@ -395,8 +395,62 @@ header {
 footer {
   .col-xl-3,
   .col-md-6 {
-    padding: 20px;
+    padding: 20px 0;
+    .footer_description {
+      font-size: 14px !important;
+      color: grey !important;
+    }
+    h5 {
+      font-size: 18px;
+      color: #37517e;
+      font-weight: bold;
+    }
+    p {
+      font-size: 17px !important;
+    }
+    .list_footer {
+      padding: 5px;
+    }
+    li {
+      display: flex;
+      place-content: start;
+      place-items: center;
+      list-style: none;
+
+      i {
+        font-size: 23px;
+        color: #37517e;
+        font-weight: bol;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .social_media_description {
+      width: 60% !important;
+    }
+
+    .social_media {
+      display: flex;
+      place-items: center;
+      width: 80%;
+
+      a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: #f3f5fa;
+        margin-left: 5px;
+        i {
+          line-height: 10px;
+          font-size: 16px;
+        }
+      }
+    }
   }
+
+  // footer  copy right
   .card-header {
     background-color: #37517e;
     color: white;
@@ -411,7 +465,7 @@ footer {
 // animation scrolling navbar
 .scrolling_active {
   transition: all 0.55s ease;
-  background-color: #4535f0 !important; //jika navbar nya mempunyi default warna maka beri importan agar code ini di jalankan
+  background-color: #37517e !important; //jika navbar nya mempunyi default warna maka beri importan agar code ini di jalankan
 }
 
 // progresss bar

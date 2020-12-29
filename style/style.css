@@ -429,7 +429,80 @@ header .title_jumbotron button:hover i {
 
 footer .col-xl-3,
 footer .col-md-6 {
-  padding: 20px;
+  padding: 20px 0;
+}
+
+footer .col-xl-3 .footer_description,
+footer .col-md-6 .footer_description {
+  font-size: 14px !important;
+  color: grey !important;
+}
+
+footer .col-xl-3 h5,
+footer .col-md-6 h5 {
+  font-size: 18px;
+  color: #37517e;
+  font-weight: bold;
+}
+
+footer .col-xl-3 p,
+footer .col-md-6 p {
+  font-size: 17px !important;
+}
+
+footer .col-xl-3 .list_footer,
+footer .col-md-6 .list_footer {
+  padding: 5px;
+}
+
+footer .col-xl-3 li,
+footer .col-md-6 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: start;
+  place-items: center;
+  list-style: none;
+}
+
+footer .col-xl-3 li i,
+footer .col-md-6 li i {
+  font-size: 23px;
+  color: #37517e;
+  font-weight: bol;
+}
+
+footer .col-xl-3 li a,
+footer .col-md-6 li a {
+  text-decoration: none;
+}
+
+footer .col-xl-3 .social_media_description,
+footer .col-md-6 .social_media_description {
+  width: 60% !important;
+}
+
+footer .col-xl-3 .social_media,
+footer .col-md-6 .social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  width: 80%;
+}
+
+footer .col-xl-3 .social_media a,
+footer .col-md-6 .social_media a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #f3f5fa;
+  margin-left: 5px;
+}
+
+footer .col-xl-3 .social_media a i,
+footer .col-md-6 .social_media a i {
+  line-height: 10px;
+  font-size: 16px;
 }
 
 footer .card-header {
@@ -449,7 +522,7 @@ footer .card-header {
 .scrolling_active {
   -webkit-transition: all 0.55s ease;
   transition: all 0.55s ease;
-  background-color: #4535f0 !important;
+  background-color: #37517e !important;
 }
 
 .progress-bar {

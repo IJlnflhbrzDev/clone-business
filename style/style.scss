@@ -5,6 +5,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+.loader {
+  background: url("https://i.pinimg.com/originals/05/39/17/0539179a75d8d50e5d3a402c2c97982c.gif")
+    black; // gunakan backgrond untuk menaruh image nya jangann gunakan background-image dan kasih warna dasar dengan black
+  background-size: cover;
+  background-position: center;
+  position: fixed; //gunakan position fixed supaya ketika di web masih  load   semua isi web akakn di tutupi dengan animatied loade nya
+  width: 100%; // gunakan width 100% supaya menutupi semua ruang ketika di load
+  height: 100%; //gunakan tingi 100% supaya ketika web masih di load maka akan terus menerus menampilkan loader nya
+  z-index: 9999; //gunakan z indek yg besar supaya element nya berada paling tumpukan ter atas dari yg lain
+}
+// button whatsap syle
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+//end button whatsap syle
+
 html,
 body {
   font-family: "Open Sans", sans-serif;

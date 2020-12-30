@@ -2,6 +2,11 @@ $('.carousel').carousel({
      interval: 1000 * 10
 });
 
+// animation ketika web di masih keadaan di load atau masih proses
+$(window).load(function () {
+     $('.loader').fadeOut('slow');
+});
+
 // animation scroll vanilla javascript
 const navbar = document.querySelector('.navbar'); // membuat variabel const untuk menangkap element yg akan di jadikan animasi scroll nya
 window.onscroll = function () {  // window onscroll ini artinya jika window di sedang di scroll  =  lalu meng inisiliasasikan sebuah function tanpa nama dan  tanpa argument

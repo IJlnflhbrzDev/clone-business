@@ -7,6 +7,36 @@
           box-sizing: border-box;
 }
 
+.loader {
+  background: url("https://i.pinimg.com/originals/05/39/17/0539179a75d8d50e5d3a402c2c97982c.gif") black;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
